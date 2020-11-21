@@ -26,9 +26,10 @@ class _Home extends State<Home> {
           ),
           new ListTile(
             title: Text('Burger King'),
-          ),
-          new ListTile(
-            title: Text('Abierto', style: TextStyle(color: Colors.red)),
+            subtitle: Text(
+              'Cerrado',
+              style: TextStyle(color: Colors.red),
+            ),
           ),
           new Image.asset(
             "assets/carlsJr.jpg",
@@ -38,9 +39,10 @@ class _Home extends State<Home> {
           ),
           new ListTile(
             title: Text('Carls Jr'),
-          ),
-          new ListTile(
-            title: Text('Abierto', style: TextStyle(color: Colors.red)),
+            subtitle: Text(
+              'Abierto',
+              style: TextStyle(color: Colors.red),
+            ),
           ),
           new Image.asset(
             "assets/mcDonalds.jpg",
@@ -50,9 +52,10 @@ class _Home extends State<Home> {
           ),
           new ListTile(
             title: Text('Mc Donalds'),
-          ),
-          new ListTile(
-            title: Text('Abierto', style: TextStyle(color: Colors.red)),
+            subtitle: Text(
+              'Cerrado',
+              style: TextStyle(color: Colors.red),
+            ),
           ),
           new Image.asset(
             "assets/jackInTheBox.jpg",
@@ -62,9 +65,10 @@ class _Home extends State<Home> {
           ),
           new ListTile(
             title: Text('Jack In The Box'),
-          ),
-          new ListTile(
-            title: Text('Abierto', style: TextStyle(color: Colors.red)),
+            subtitle: Text(
+              'Abierto',
+              style: TextStyle(color: Colors.red),
+            ),
           ),
           new Image.asset(
             "assets/kfc.jpg",
@@ -74,9 +78,10 @@ class _Home extends State<Home> {
           ),
           new ListTile(
             title: Text('KFC'),
-          ),
-          new ListTile(
-            title: Text('Abierto', style: TextStyle(color: Colors.red)),
+            subtitle: Text(
+              'Cerrado',
+              style: TextStyle(color: Colors.red),
+            ),
           ),
         ],
       ),
